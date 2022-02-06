@@ -1,11 +1,13 @@
-require('@nomiclabs/hardhat-waffle');
+require("@nomiclabs/hardhat-waffle");
 
 module.exports = {
-  solidity: '0.8.0',
+  solidity: "0.8.0",
   networks: {
     ropsten: {
-      url: 'https://eth-ropsten.alchemyapi.io/v2/z4WpA8UKgqnwbTYmrZu15yCOiijBKaRv',
-      accounts: ['2f99db8cdb04655028eee1dc98230925202f6b3e010e43fad2883b4bea90a1a3'],
+      url: "https://eth-ropsten.alchemyapi.io/v2/fNatxmYbP3B-Lx2ov_hCEal65tiCtGQb",
+      accounts: [
+        "2b0637bbdd114fb9a74b21ab25e30f66c48798b10e8701768328e4304b6097ac",
+      ],
     },
   },
 };
